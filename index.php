@@ -1,10 +1,8 @@
 <?php
 include 'dbcon.php';
-
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>TradeHUB</title>
@@ -19,14 +17,9 @@ include 'dbcon.php';
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="styles1.css">
 </head>
-
 <body>
-
     <section id="title">
         <div class="container-fluid">
-
-
-            <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark ">
                 <a href="" class="navbar-brand"><b>TradeHub</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,11 +85,7 @@ include 'dbcon.php';
                     </ul>
                 </div>
             </nav>
-
-
-
-            <!-- Title -->
-
+            
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Trade Anywhere Anytime Anything</h1>
@@ -108,13 +97,9 @@ include 'dbcon.php';
                     <img class="title-image" src="images/tradehubgif.gif" alt="iphone-mockup">
                 </div>
             </div>
-
         </div>
 
     </section>
-
-
-    <!-- Features -->
 
     <section id="features">
         <div class="row">
@@ -138,15 +123,8 @@ include 'dbcon.php';
     </section>
 
 
-
-
-
-
-
     </section>
 
-
-    <!-- Press -->
 
     <section id="press">
         <img src="images/TechCrunch.png" alt="tc-logo">
@@ -187,7 +165,6 @@ include 'dbcon.php';
                     <?php
                     }
                     ?>
-
 
                 </ul>
                 <button id="next-slide" class="slide-button material-symbols-rounded">
