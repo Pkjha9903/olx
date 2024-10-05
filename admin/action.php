@@ -13,7 +13,6 @@ if ($r['status'] == "active") {
     ['userid' => $userid], // Filter to find the user by useremail
     ['$set' => ['status' => 'blocked']] // Update the username field
   );
-
   if ($updateResult->getModifiedCount() > 0) {
 ?>
     <script>
@@ -38,4 +37,4 @@ if ($r['status'] == "active") {
 ?>
 <script>
   location.replace('admindashboard.php');
-</script>
+</script> 
