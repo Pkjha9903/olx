@@ -12,24 +12,20 @@
       background-color: #f8f9fa;
       color: #333;
     }
-
     .container {
       padding-top: 50px;
     }
-
     .contact-section {
       text-align: center;
       padding-bottom: 50px;
       animation: slide-down 300ms ease-out forwards;
     }
-
     .section-title {
       font-size: 36px;
       font-weight: bold;
       margin-bottom: 30px;
       color: #E91E63;
     }
-
     .contact-info {
       background-color: #ff4c68;
       padding: 30px;
@@ -37,19 +33,16 @@
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       animation: meals-appear 1s ease-out forwards;
     }
-
     @keyframes meals-appear {
       from {
         opacity: 0;
         transform: translateY(3rem);
       }
-
       to {
         opacity: 1;
         transform: translateY(0);
       }
     }
-
     .info-item {
       margin-bottom: 20px;
     }
@@ -58,35 +51,29 @@
       margin-bottom: 10px;
       color: white;
     }
-
     .info-item p {
       color: white;
     }
-
     .creative-content {
       margin-top: 20px;
       text-align: center;
       animation: slide-down 300ms ease-out forwards;
     }
-
     @keyframes slide-down {
       from {
         opacity: 0;
         transform: translateY(-3rem)
       }
-
       to {
         opacity: 1;
         transform: translateY(0);
       }
     }
-
     .creative-content img {
       max-width: 100%;
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     }
-
     .creative-content p {
       margin-top: 20px;
       font-style: italic;
@@ -95,9 +82,7 @@
 </head>
 
 <body>
-  <!-- navbar start -->
   <?php include 'navbar.php'; ?>
-  <!-- navbar finish  -->
   <div class="container">
     <div class="contact-section">
       <h2 class="section-title">Contact Us</h2>
@@ -121,10 +106,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Bootstrap JS and dependencies -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
